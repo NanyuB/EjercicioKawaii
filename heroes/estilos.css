@@ -1,0 +1,161 @@
+body {
+    font-family: 'Delius Unicase', cursive;
+    color: white;
+  }
+  .visually-show {
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(87, 11, 58);
+    text-shadow: 2px 2px 10px rgb(235, 201, 227);
+    padding: 50px;
+    border: 5px solid rgb(87, 11, 58);
+    background-image: url("fondodarknav.png");
+    background-repeat: repeat;
+    background-size: auto;  
+    display: flex; 
+    justify-content: center;
+  }
+  .form-check-input:checked {
+      background-color: rgb(87, 11, 58);
+      border-color: white; 
+  }
+  .form-check-input:focus {
+    box-shadow: 1px 1px 5px rgb(235, 201, 227);
+    border-color: white; 
+}
+ .conte {
+     background-color: rgb(37, 37, 37);
+ }
+ #floatingInput, #floatingPassword{
+     background-color: rgb(63, 61, 61);
+ }
+ #floatingInput:focus, #floatingPassword:focus{
+    box-shadow: 1px 1px 5px rgb(87, 11, 58);
+    border-color: rgb(87, 11, 58);
+}
+  .btn-primary{
+    background-color: rgb(27, 26, 27);
+    border-color: rgb(87, 11, 58);
+  }
+  .btn-primary:hover{
+    background-color: rgb(87, 11, 58);
+    border-color: rgb(87, 11, 58);
+
+  }
+  a {
+    font-family: 'Delius Unicase', cursive;
+  }
+
+  button, a {
+    cursor: url(https://cdn.custom-cursor.com/db/5069/32/arrow2868.png) , pointer!important;
+  }
+  .navbarbor{
+    border: 5px solid transparent; 
+    border-image: linear-gradient(to bottom, rgb(87, 11, 58),rgb(58, 1, 49), rgb(38, 43, 83)) 1;
+  }
+  .experimento {
+    background: #ccc;
+    background-image: linear-gradient(to right, rgb(255, 0, 217), rgb(1, 18, 94));
+    text-shadow: 1px 1px 25px rgb(0, 0, 0);
+    background-size:cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  mark{
+      background-color: rgb(77, 18, 72);
+  }
+  .experimento2 {
+    background-image: linear-gradient(to right, rgb(82, 0, 57), rgb(73, 1, 43));
+    text-shadow: 2px 2px 1px rgb(229, 150, 196);
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;  
+  }
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  .navbar {
+    background-image: url(./fondodarknav.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;  
+    display: flex; 
+    justify-content: space-between;
+  }
+  .nav-link, .navbar-brand {
+    color: rgb(236, 220, 240);
+    cursor:pointer;
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+
+body {
+    background-image: linear-gradient(to right, black,rgb(59, 5, 59),rgb(77, 0, 66), rgb(51, 56, 95));
+    background-repeat: no-repeat;
+    cursor: url(https://cdn.custom-cursor.com/db/5070/32/arrow2868.png) , default!important;
+}
+
+.btn-change {
+    padding: 8px 24px;
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+   
+  } 
+  .fas{
+        font-size: 24px;
+        color:white;
+  }
+  .btn-change:hover {
+    padding: 8px 24px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+   
+  } 
+  .btn-change:hover > .fas{
+        font-size: 24px;
+        color:black;
+  }
+
+  .save {
+    display: flex;
+    align-items: stretch;
+  }
+ .border {
+     border: 1px solid black !important;
+ }
+
+  .left, .right, .center {
+    flex: 33%;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex-direction:column;
+    text-align: center;
+  }
+  @media screen and (max-width: 768px) {
+    .left, .right, .center {
+      flex:100%;
+    }  
+    .save {
+      flex-direction: column;
+    }
+  }       
